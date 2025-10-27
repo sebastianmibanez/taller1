@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Supermercado",
+    "amount": 45000
+  },
+  {
+    "id": 2,
+    "name": "Electricidad",
+    "amount": 25000
+  },
+  {
+    "id": 3,
+    "name": "Agua",
+    "amount": 15000
+  },
+  {
+    "id": 4,
+    "name": "Internet",
+    "amount": 30000
+  },
+  {
+    "id": 5,
+    "name": "Gas",
+    "amount": 18000
+  },
+  {
+    "id": 6,
+    "name": "Transporte",
+    "amount": 20000
+  }
+]

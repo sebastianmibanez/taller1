@@ -1,0 +1,125 @@
+.app {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filtro-section {
+  margin-bottom: 20px;
+}
+
+.input-filtro {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.gasto-form {
+  display: flex;
+  gap: 10px;
+}
+
+.input-nombre,
+.input-monto {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.btn-add {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.gastos-list {
+  margin-bottom: 20px;
+}
+
+.gasto-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gasto-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.gasto-amount {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.no-gastos {
+  text-align: center;
+  color: #666;
+  padding: 40px;
+}
+
+.total-section {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.total-section h2 {
+  color: #007bff;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .gasto-form {
+    flex-direction: column;
+  }
+  
+  .gasto-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .gasto-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
